@@ -1,0 +1,82 @@
+#feature{
+	width: 940px;
+	height: 525px;
+	position: relative;
+	margin: 60px auto 0px;
+}
+#pic{
+	width: 940px;
+	height: 350px;
+	
+}
+#main_promo{height:350px; width:940px; margin-left:-470px; position:relative;  top:0;  left:50%; overflow:hidden; z-index:0; }
+.promoWD{width:940px; margin:0 auto; position:relative; }
+.slide{display:block; float:left;  width:1920px;}
+#dots{height:10px; position:absolute; bottom:10px; right:75px; z-index:99;list-style: none;}
+#dots li{ width:20px; height:10px; float:left; list-style: none;border-radius: 10px;}
+#dots li a{ width:10px; display:block; height:10px; background-color:#887f80;border-radius: 10px; }
+#dots li.act a{background-color:#f5f5f5;border-radius: 10px;}
+
+
+#box{
+	background: #000;
+	background:rgba(0,0,0,0.6);
+	position: absolute;
+	right: 0;
+	top: 0;
+	
+	width: 240px;
+	height: 350px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+#box h1{
+	width:200px;
+	margin: 30px 20px;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	line-height:1.2em;
+	text-align: left;
+}
+#box section{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 1.2em;
+	width:200px;
+	margin: 0px 20px ;
+}
+#myshop {
+	background: url(../img/feature/button1.png);/*部分浏览器不兼容此功能*/
+	width: 202px;
+	height: 37px;
+	margin: 20px 20px 0px;
+	position: relative;
+}
+#myshop a{
+	width: 202px;
+	height: 37px;
+	position: absolute;
+	margin: auto;
+}
+#newshop{
+	background:  url(../img/feature/button2.png);
+	width: 202px;
+	height: 37px;
+	margin: 10px 20px;
+	position: relative;
+}
+#newshop a{
+	width: 202px;
+	height: 37px;
+	position: absolute;
+	margin: auto;
+}
+#word{
+	font-size: 26px;
+	color: #959595;
+	width: 940px;
+	margin: 55px auto ;
+	text-align: center;
+	font-family: "微软雅黑";
+}
